@@ -1,2 +1,15 @@
 ---
-# tasks file for Webservers
+- name: Install Apache
+  apt:
+    name: apache2
+    state: present
+
+- name: Install PHP
+  apt:
+    name: php
+    state: present
+
+- name: Install php-mysql
+  apt:
+    name: php-mysql
+    state: present

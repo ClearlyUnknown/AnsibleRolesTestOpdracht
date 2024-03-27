@@ -1,5 +1,0 @@
----
-# tasks file for DBservers/
-- name: Install MySQL
-  apt:
-    name: mysql-server
